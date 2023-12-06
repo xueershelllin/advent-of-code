@@ -1,0 +1,140 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/xueer.lin/private/advent-of-code ; lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless ; popd
+; Using host:port 127.0.0.1:54962 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉advent-of-code.core꞉>  ; Use `alt+enter` to evaluate
+clj꞉advent-of-code.core꞉> 
+; Jack-in done.
+clj꞉advent-of-code.core꞉> 
+; Syntax error compiling at (src/advent_of_code/2023/day1.clj:65:1).
+; Unable to resolve symbol: find-first-digit-indices in this context
+clj꞉advent-of-code.2023.day1꞉> 
+; Evaluating file: day1.clj
+30
+clj꞉advent-of-code.2023.day1꞉> 
+{"4" 0, "two" 11, "five" 7}
+clj꞉advent-of-code.2023.day1꞉> 
+{"4" 4, "two" 24, "five" 7}
+clj꞉advent-of-code.2023.day1꞉> 
+#'advent-of-code.2023.day1/find-first-digit-indices
+clj꞉advent-of-code.2023.day1꞉> 
+; Execution error (UnsupportedOperationException) at advent-of-code.2023.day1/find-first-digit-indices$fn (form-init18181627664309899805.clj:57).
+; nth not supported on this type: PersistentArrayMap
+clj꞉advent-of-code.2023.day1꞉> 
+(["4" 0] ["five" 7] ["two" 11])
+clj꞉advent-of-code.2023.day1꞉> 
+(["two" 0] ["4" 3] ["five" 10])
+clj꞉advent-of-code.2023.day1꞉> 
+["4" 4]
+clj꞉advent-of-code.2023.day1꞉> 
+["five" 7]
+clj꞉advent-of-code.2023.day1꞉> 
+; Syntax error compiling at (src/advent_of_code/2023/day1.clj:73:31).
+; Unable to resolve symbol: priority-map in this context
+clj꞉advent-of-code.2023.day1꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/xueer.lin/private/advent-of-code ; lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless ; popd
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:55196 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉advent-of-code.core꞉> 
+clj꞉advent-of-code.core꞉> 
+; Jack-in done.
+clj꞉advent-of-code.core꞉> 
+; Evaluating file: day1.clj
+["five" 7]
+clj꞉advent-of-code.2023.day1꞉> 
+{"two" 0, "4" 3, "five" 10}
+clj꞉advent-of-code.2023.day1꞉> 
+; Syntax error compiling at (src/advent_of_code/2023/day1.clj:70:1).
+; Unable to resolve symbol: _ in this context
+clj꞉advent-of-code.2023.day1꞉> 
+"two"
+clj꞉advent-of-code.2023.day1꞉> 
+2
+clj꞉advent-of-code.2023.day1꞉> 
+2
+clj꞉advent-of-code.2023.day1꞉> 
+#'advent-of-code.2023.day1/find-first-digit
+clj꞉advent-of-code.2023.day1꞉> 
+4
+clj꞉advent-of-code.2023.day1꞉> 
+3
+clj꞉advent-of-code.2023.day1꞉> 
+#'advent-of-code.2023.day1/find-last-digit
+clj꞉advent-of-code.2023.day1꞉> 
+#'advent-of-code.2023.day1/find-last-digit
+clj꞉advent-of-code.2023.day1꞉> 
+2
+clj꞉advent-of-code.2023.day1꞉> 
+; Syntax error reading source at (REPL:84:1).
+; Invalid number: 4mms4btfivetwodgvbhrzrlh324two
+clj꞉advent-of-code.2023.day1꞉> 
+2
+clj꞉advent-of-code.2023.day1꞉> 
+7
+clj꞉advent-of-code.2023.day1꞉> 
+7
+clj꞉advent-of-code.2023.day1꞉> 
+; Syntax error compiling at (src/advent_of_code/2023/day1.clj:104:1).
+; Unable to resolve symbol: example-rows in this context
+clj꞉advent-of-code.2023.day1꞉> 
+#'advent-of-code.2023.day1/example-rows
+clj꞉advent-of-code.2023.day1꞉> 
+; Syntax error compiling at (src/advent_of_code/2023/day1.clj:105:26).
+; Unable to resolve symbol: calibrate-row-v2 in this context
+clj꞉advent-of-code.2023.day1꞉> 
+; Syntax error compiling at (src/advent_of_code/2023/day1.clj:85:21).
+; Unable to resolve symbol: get-first-digit in this context
+clj꞉advent-of-code.2023.day1꞉> 
+; Execution error (IllegalStateException) at advent-of-code.2023.day1/eval8414 (form-init13816557210619278975.clj:106).
+; Attempting to call unbound fn: #'advent-of-code.2023.day1/calibrate-row-v2
+clj꞉advent-of-code.2023.day1꞉> 
+; Evaluating file: day1.clj
+281
+clj꞉advent-of-code.2023.day1꞉> 
+; Evaluating file: day1.clj
+281
+clj꞉advent-of-code.2023.day1꞉> 
+; Evaluating file: day1.clj
+#'advent-of-code.2023.day1/example-rows
+clj꞉advent-of-code.2023.day1꞉> 
+; Evaluating file: day1.clj
+#'advent-of-code.2023.day1/example-rows
+clj꞉advent-of-code.2023.day1꞉> 
+53312
+clj꞉advent-of-code.2023.day1꞉> 
